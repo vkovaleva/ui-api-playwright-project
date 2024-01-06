@@ -8,20 +8,20 @@ jobs:
   ts-check:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/setup-env.yml
+    - uses: ./.github/actions/setup-env
     - name: Run ts-check
       run: npm run check
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/setup-env.yml
+    - uses: ./.github/actions/setup-env
     - name: Run lint
       run: npm run lint
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/setup-env.yml
+    - uses: ./.github/actions/setup-env
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
