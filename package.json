@@ -10,7 +10,8 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
     "check": "tsc --noEmit",
-    "test": "npx playwright test"
+    "test": "npx playwright test --project=prod",
+    "test:report": "npx playwright show-report"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@types/node": "^20.10.6",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
+    "dotenv": "^16.3.1",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
@@ -31,4 +33,3 @@
     "typescript": "^5.3.2"
   }
 }
-

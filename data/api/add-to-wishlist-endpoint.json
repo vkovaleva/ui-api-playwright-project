@@ -1,0 +1,23 @@
+{
+  "api": {
+    "accesToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjB6Y3RJdzd2WHdZSGRTT1J1NW5JWnRjajNrQSIsImtpZCI6IkQzMzcyRDIzMEVFRjVGMDYwNzc1MjM5MUJCOTlDODY2RDcyM0RFNDAifQ.eyJpc3MiOiJodHRwczovL215LmFzb3MuY29tL3RydXN0IiwiYXVkIjoiaHR0cHM6Ly9hcGkuYXNvcy5jb20iLCJleHAiOjE3MzY0NTk5OTQsIm5iZiI6MTcwNDkyMzk5NCwiY2xpZW50X2lkIjoiRDkxRjJEQUEtODk4Qy00RTEwLTkxMDItRDZDOTc0QUZCRDU5Iiwic2NvcGUiOiJzZW5zaXRpdmUiLCJzdWIiOiJiNjE3OWJmYzNmN2Y0ZWYyYTdjZWJmMzA1NmVjYTk2ZiIsImF1dGhfdGltZSI6MTcwNDkyMzk5NCwiaWRwIjoic2l0ZSIsInNlc3MiOiIxNTg4OWQ0ODM5YWU0ZmM2OGUyYmFhYjQwZDRhZmFmMCIsImFtciI6WyJhbm9uIl19.Rm1E5df2_AL-PyqBf0ay4yolTG_-EU2E0ukde0S3Hn8nRkpm6QDpYYEvPG71tHoFPskfjMaOtIywsKoI7uSohqmrwLtCwml7rP2E_aLvC3wzarKMLQLgHIU5DxC1o7TM1jAwUnLe-dQAqiP2cqurwfiq4GU-7X4lZ2OwmhQCKLzBsRoGiqxFg2C6chIBHrTUitIP_kQ3tjjFdEkFcf6l1vfxQRiMRh-IAky2PyASWMG4QukYNe5_2faMrROoUmsIh28Zm_9hiC36Ch1BxfZvV91bQVcTUwymkbAIXxdsFk5lohE46gOfqbdcK0E3Zs1ExkB6BeE-pz_6pfSz67K3FWB5t1Xl-D1sg87oT-d479YOEMyP4ilv2OUtZBH-c1c5SlSuKDV2vaPqG7oL4hr1d1RCthhXerOFMibryZ5Df7r2izqVYggcxcFWPWtV5wIDU_yNxUUI3wOTGd0t6oey-vhaUUEekJef3RNGqM6bln_c0faCKXoJdEUBIShhtk5YLVx5xJljqpgH_iVrwl2mcxVgdhOujuLZsdWHveP33EzAkx0sZSg2oG-LEXr14aXWkGe2TnrR3DTOZixlfjGowVZV5x3CZEL45cZjhDlyb7THGNn9jmpcE1udsJqDqZ31jKp2G_Ca-JITVuNpJuXQ48Bevahyto_zM7O2cEy5Fcw"
+  },
+  "url": {
+    "addToWishlist": "/api/customer/savedlists/v3/customers/me/lists/default/items"
+  },
+  "body": {
+    "items": [
+      { "productId": "205733155", "colourWayId": "205733156" },
+      { "productId": "205847456", "colourWayId": "205847458" },
+      { "productId": "205821846", "colourWayId": "205821852" },
+      { "productId": "23224312", "colourWayId": "60460748" }
+    ]
+  },
+  "params": {
+    "currency": "GBP",
+    "keyStoreDataversion": "h7g0xmn-38",
+    "lang": "en-GB",
+    "sizeSchema": "UK",
+    "store": "COM"
+  }
+}
